@@ -16,4 +16,12 @@ public class HelloWorldController {
         
         return "hello";
     }
+    
+    @RequestMapping("/hi")
+    public String hello(String name) {
+        
+        String message="You just create Spring Boot Example successfully";
+ 
+        return "hello";
+    }
 }
